@@ -41,4 +41,5 @@ def add_mult(num1,num2,num3):
 
 def add_cubes(num1, num2):
     cube = num1**3 + num2**3
+    print(cube)
     return cube
