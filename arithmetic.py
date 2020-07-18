@@ -3,8 +3,9 @@
 
 def add(num1, num2):
     """Return the sum of the two inputs."""
-
-    return 10
+    sums = num1+num2
+    #print(sums)
+    return sums
 
 
 def subtract(num1, num2):
@@ -33,3 +34,11 @@ def power(num1, num2):
 
 def mod(num1, num2):
     """Return the remainder of num1 / num2."""
+
+def add_mult(num1,num2,num3):
+    final = (num1 + num2)*num3
+    return final
+
+def add_cubes(num1, num2):
+    cube = num1**3 + num2**3
+    return cube
